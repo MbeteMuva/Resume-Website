@@ -1,0 +1,264 @@
+/* General Page Styles */
+body {
+    body {
+        font-family: 'Playfair Display', serif;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    
+}
+/* Global Header and Navigation Styling */
+header {
+    background: linear-gradient(to left, #431278 0%, #A613AD 100%);
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header-container {
+    display: flex; 
+    align-items: left; 
+    justify-content: space-between; 
+    max-width: 1000px; 
+    margin: 2px auto; 
+    
+
+
+}
+
+.profile-image img {
+    width: 170px; 
+    height: 150px; 
+    border-radius: 100%; 
+    border: 2px solid #fff; 
+    object-fit: cover;
+}
+
+.header-text h1 {
+    font-size: 4em;
+    margin: 0; 
+}
+
+.header-text p {
+    font-size: 1.2em; 
+    margin: 5px 0; 
+}
+
+
+/*Main Content and Navigation */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.side-nav {
+    width: 150px; /* Width of the side navigation */
+    background-color: #f4f4f4;
+    padding-top: 20px; /* Adjusted for header height */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1)
+    
+}
+
+.side-nav a {
+    display: flex;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+
+.side-nav a:hover {
+    background-color: #e2b8fa;
+}
+
+.main-content {
+    display: flex;
+    align-items: baseline;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+.content-area {
+    padding: 20px; /* Top padding adjusted to prevent overlap with header */
+    flex-direction: column;
+    color: #333;
+    box-sizing: border-box;
+    margin-top: flex;
+    justify-content: flex-start;
+}
+/* About Section */
+#about {
+    margin-left: 150px;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+h2 {
+    font-size: 2em; /* Adjust font size for section titles */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em; /* Adjust font size for paragraph text */
+}
+
+/* Experience Section */
+#experienceone {
+    margin: 10px auto;
+    
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+h2 {
+    font-size: 2em; /* Adjust font size for section titles */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em; /* Adjust font size for paragraph text */
+}
+#experiencetwo {
+    margin-left: 150px;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: auto;
+    position: relative;
+}
+h2 {
+    font-size: 2em; /* Adjust font size for section titles */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em; /* Adjust font size for paragraph text */
+}
+#experiencethree {
+    margin-left: 150px;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: auto;
+    position: relative;
+}
+h2 {
+    font-size: 2em; /* Adjust font size for section titles */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em; /* Adjust font size for paragraph text */
+}
+
+/* Education Section */
+
+.education-page {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+#Moringa {
+    margin-left: 150px;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: auto;
+}
+#Strathmore {
+    margin-left: 150px;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: auto;
+}
+/* Styling for Each School Entry */
+.school-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* School Logo Styling */
+.school-logo {
+    display: flex;
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 20px; /* Spacing between logo and text */
+    vertical-align: middle;
+    border-radius: 100%; /* Make the logo circular */
+}
+
+/* School Info Styling */
+.school-info h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.school-info p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #555;
+}
+#technicalskills {
+    margin-left: 150px;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: baseline;
+}
+/* Footer Styling */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 0;
+}
+a {
+    color: #fff; /* Adjust link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Adjust hover effect */
+}
+
+
